@@ -17,4 +17,6 @@ namespace Assets.Script.Client
         ClientOffline = 203, // 客户端离线
         Message = 301  // 消息
     }
+
+    delegate void ReceiveMessages_EventHandler(Data data);
 }
